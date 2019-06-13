@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    max-height:600px;
+  }
+	.cloud-text{
+		color:white;
+		font-family:Raleway;
+		font-size:22px;
+	}
+	body{
+		background-color:#140f2d;		
+	}
+  </style>
+</head>
+<body>
+<div class="container-fluid" style="background-color:#140f2d;padding-top:100px;">
+	<div id="demo" class="carousel slide" data-ride="carousel">
+	  <ul class="carousel-indicators">
+	    <li data-target="#demo" data-slide-to="0" class="active"></li>
+	    <li data-target="#demo" data-slide-to="1"></li>
+	    <li data-target="#demo" data-slide-to="2"></li>
+			<li data-target="#demo" data-slide-to="3"></li>
+			<li data-target="#demo" data-slide-to="4"></li>
+			<li data-target="#demo" data-slide-to="5"></li>
+	  </ul>
+	  <div class="carousel-inner">
+	    <div class="carousel-item active" style="width:100%;height:100%">
+	      <img src="https://images.unsplash.com/photo-1502623547075-299b5ba76c53?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Cloud">
+	      <div class="carousel-caption">
+		<h1 class="cloud-text" style="align:top;">What is Cloud?</h1>
+	      </div>   
+	    </div>
+	    <div class="carousel-item">
+	      <img src="https://images.unsplash.com/photo-1518277748204-ba05cb84d9f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Solution">
+	      <div class="carousel-caption">
+		<h1 class="cloud-text">The one which is under the bright blue sky?</h1>
+	      </div>   
+	    </div>
+	    <div class="carousel-item">
+	      <img src="https://media.istockphoto.com/photos/traffic-light-red-signal-3-picture-id1124695967?k=6&m=1124695967&s=612x612&w=0&h=SFhyCMDfD-San5qbDttdzfW5jq3V9nVaKemCK73EcrE=" alt="Nope">
+	      <div class="carousel-caption">
+					<h1 class="cloud-text">No,<br>not that <br>one buddy <br></h1>
+	      </div>   
+	    </div>
+			<div class="carousel-item">
+	      <img src="https://images.pexels.com/photos/1023828/pexels-photo-1023828.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Defintion">
+	      <div class="carousel-caption">
+		<h1 class="cloud-text">A platform to share & connect with people</h1>
+	      </div>   
+	    </div>
+			<div class="carousel-item">
+	      <img src="https://images.pexels.com/photos/1498964/pexels-photo-1498964.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Defintion">
+	      <div class="carousel-caption">
+		<h1 class="cloud-text">Here you can not only share pictures and videos but also... >></h1>
+	      </div>   
+	    </div>
+			<div class="carousel-item">
+	      <img src="https://images.pexels.com/photos/132340/pexels-photo-132340.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Defintion">
+	      <div class="carousel-caption">
+		<h1 class="cloud-text">Introducing our new way of asking and answering queries as<br> Canvass</h1>
+	      </div>   
+	    </div>
+
+	  </div>
+	  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+	    <span class="carousel-control-prev-icon"></span>
+	  </a>
+	  <a class="carousel-control-next" href="#demo" data-slide="next">
+	    <span class="carousel-control-next-icon"></span>
+	  </a>
+	</div>
+</div>
+</body>
+</html>
+
